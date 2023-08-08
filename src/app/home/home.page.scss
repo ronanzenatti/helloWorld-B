@@ -1,7 +1,7 @@
-ion-content{
-  --color: var(ion-color-primary);
+.titulo-promocao{
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  color: var(--ion-color-warning);
 }
 
-.teste{
-  background: var(--ion-color-nova);
-}
