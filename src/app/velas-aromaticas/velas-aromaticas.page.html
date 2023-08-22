@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>velas aromaticas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-searchbar mode="ios" animated="true" placeholder="Buscar Produto"></ion-searchbar>
+
+  <ion-list>
+    <ion-item lines="full">
+      <ion-thumbnail slot="start">
+        <img src="https://th.bing.com/th/id/OIP.--gqn9AJhoRmcG4jrYHPdAHaE8?pid=ImgDet&rs=1" />
+      </ion-thumbnail>
+
+      <ion-label>
+        <h2>Vela - Lavanda</h2>
+        <p>15cm - redonda</p>
+      </ion-label>
+
+      <ion-badge color="dark">R$ 15,00</ion-badge>
+
+      <ion-button expand="block" slot="end">
+        <ion-icon slot="icon-only" name="cart-outline"></ion-icon>
+      </ion-button>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-thumbnail slot="start">
+        <img src="https://i.pinimg.com/originals/2a/59/50/2a5950702d3d1895ca4c4e3187a33701.jpg" />
+      </ion-thumbnail>
+
+      <ion-label>
+        <h2>Vela - Orquidea Rosa</h2>
+        <p>10cm - redonda</p>
+      </ion-label>
+
+      <ion-badge color="dark">R$ 25,00</ion-badge>
+
+      <ion-button expand="block" slot="end">
+        <ion-icon slot="icon-only" name="cart-outline"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>
